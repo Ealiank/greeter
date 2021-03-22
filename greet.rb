@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
-print "what is your name? "
+print "What is your name? "
 your_name = gets
-puts "Hello #{your_name.upcase}"
+puts "Hello #{your_name}"
+print "What is your age?"
+your_age = gets
+puts "you are #{your_age} years old."
