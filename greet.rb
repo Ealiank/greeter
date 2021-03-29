@@ -13,6 +13,10 @@ when 4..12
   puts "You are a kid"
 when 13..19
   puts "You are a teen"
-else
+when 20..100
   puts "You are an adult"
+when 101..1000000000000000000000000000000000000000000000000000000000
+  puts "You are dead"
+else
+  puts "You are not born"
 end
