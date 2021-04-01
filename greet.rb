@@ -22,23 +22,23 @@ else
 end
 
 print "Do you eat animal products? " 
-meat_eater = gets.chomp
+meat_eater = gets{0}
 print "Do you play video games? "
-video_games = gets.chomp
+video_games = gets[0]
 print "Do you go to school? "
-schooling = gets.chomp
+schooling = gets[0]
 
-if meat_eater == "Yes" || meat_eater == "yes"
+if meat_eater == "Y" || meat_eater == "y"
   puts "You are a carnivore"
 else
   puts "You are a vegitarian"
 end
-if video_games == "Yes" || video_games == "yes"
+if video_games == "Y" || video_games == "y"
   puts "You are a gamer"
 else
   puts "You are not a gamer"
 end
-if schooling == "Yes" || schooling == "yes"
+if schooling == "Y" || schooling == "y"
   puts "You are a student"
 else
   puts "You do not go to school"
