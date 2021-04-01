@@ -21,24 +21,24 @@ else
   puts "You are not born"
 end
 
-print "Do you eat animal products? " 
-meat_eater = gets{0}
+print "Do you eat animal products? "
+meat_eater = gets.upcase[0]
 print "Do you play video games? "
-video_games = gets[0]
+video_games = gets.upcase[0]
 print "Do you go to school? "
-schooling = gets[0]
+schooling = gets.upcase[0]
 
-if meat_eater == "Y" || meat_eater == "y"
+if meat_eater == "Y"
   puts "You are a carnivore"
 else
   puts "You are a vegitarian"
 end
-if video_games == "Y" || video_games == "y"
+if video_games == "Y"
   puts "You are a gamer"
 else
   puts "You are not a gamer"
 end
-if schooling == "Y" || schooling == "y"
+if schooling == "Y"
   puts "You are a student"
 else
   puts "You do not go to school"
