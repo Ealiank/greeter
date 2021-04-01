@@ -15,7 +15,7 @@ when 13..19
   puts "You are a teen"
 when 20..100
   puts "You are an adult"
-when 101..1000000000000000000000000000000000000000000000000000000000
+when (122..)
   puts "You are dead"
 else
   puts "You are not born"
