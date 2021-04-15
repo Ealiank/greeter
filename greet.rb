@@ -43,3 +43,11 @@ if schooling == "Y"
 else
   puts "You do not go to school"
 end
+
+puts "Do you want to answer the questions again? "
+questions = gets
+Y = 10
+y = 5
+if questions = Y/y
+  puts "hello"
+end
